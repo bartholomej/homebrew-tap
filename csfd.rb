@@ -1,22 +1,22 @@
 class Csfd < Formula
   desc "CSFD CLI tool and MCP server"
   homepage "https://github.com/bartholomej/node-csfd-api"
-  version "5.3.0"
+  version "5.4.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/bartholomej/node-csfd-api/releases/download/v5.3.0/csfd-macos-arm64.tar.gz"
-      sha256 "5c51304a374297e0185eeef263e4afc7f92e24757549ebd30f72b416a1cc832b"
+      url "https://github.com/bartholomej/node-csfd-api/releases/download/v5.4.0/csfd-macos-arm64.tar.gz"
+      sha256 "f3a0bc22dd99b07d108f3893268315c313e16779f960f383a5db543254ffaa26"
     end
     on_intel do
-      url "https://github.com/bartholomej/node-csfd-api/releases/download/v5.3.0/csfd-macos-x64.tar.gz"
-      sha256 "5704d18aaaa5391ccf8c126c410ba547ebdf13d107d7e432c452668a2f1a8152"
+      url "https://github.com/bartholomej/node-csfd-api/releases/download/v5.4.0/csfd-macos-x64.tar.gz"
+      sha256 "cceaaf2757030987db318bddc2593b95bba59f57ca636bd8919ad1131ea80c23"
     end
   end
 
   on_linux do
-    url "https://github.com/bartholomej/node-csfd-api/releases/download/v5.3.0/csfd-linux-x64.tar.gz"
-    sha256 "8a59950b854bfd8e6027068e8e09b4c88e40c51d2eda1e4512d785b4e53f75d2"
+    url "https://github.com/bartholomej/node-csfd-api/releases/download/v5.4.0/csfd-linux-x64.tar.gz"
+    sha256 "f6261bfb1c6927b69f390b02f47e407002e247ba22faec6ff52d567a929e7787"
   end
 
   def install
